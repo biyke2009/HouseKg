@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, DeclarativeBase, Session
 from sqlalchemy.ext.declarative import declarative_base
 from fastapi import FastAPI
 
-DATABASE_URL='postgresql://postgres:admin@localhost:5432/House_app'
+DATABASE_URL='postgresql://postgres:admin@localhost:5432/house_app'
 
 Base = declarative_base()
 

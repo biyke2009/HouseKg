@@ -1,6 +1,6 @@
-from House_app.db.database import SessionLocale
-from House_app.db.models import Property
-from House_app.db.schemas import  PropertySchema
+from house_app.db.database import SessionLocale
+from house_app.db.models import Property
+from house_app.db.schemas import  PropertySchema
 from sqlalchemy.orm import Session
 from fastapi import HTTPException, Depends,APIRouter
 from typing import List
